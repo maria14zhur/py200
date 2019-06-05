@@ -1,5 +1,5 @@
+# 1
 class Pi:
-
     @staticmethod
     def g_pi():
         return 3.14
@@ -11,6 +11,7 @@ class Pi:
 p = Pi()
 print(p.get_pi())
 
+# 2
 class A:
     var = 2
     _pvar = 3
@@ -80,3 +81,6 @@ class B(A):
 
 a = B()
 print(A._A__ppcmeth())
+
+# 5
+print(A.mro())
