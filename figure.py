@@ -3,16 +3,16 @@ class Figure:
         pass
 
     def x(self):
-        pass
+        return self.__x
 
     def y(self):
-        pass
+        return self.__y
 
     def width(self):
-        pass
+        return self.__width
 
     def height(self):
-        pass
+        return self.__height
 
     def perimeter(self):
         pass
@@ -41,18 +41,6 @@ class Rectangle(Figure):
         self.__width = width
         self.__height = height
 
-    def x(self):
-        return self.__x
-
-    def y(self):
-        return self.__y
-
-    def width(self):
-        return self.__width
-
-    def height(self):
-        return self.__height
-
     def perimeter(self):
         return 2*(self.width() + self.height())
 
@@ -68,18 +56,6 @@ class Ellipse(Figure):
         self.__y = y
         self.__width = width
         self.__height = height
-
-    def x(self):
-        return self.__x
-
-    def y(self):
-        return self.__y
-
-    def width(self):
-        return self.__width
-
-    def height(self):
-        return self.__height
 
     def perimeter(self):
         a = self.width()

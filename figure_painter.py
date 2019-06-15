@@ -8,7 +8,7 @@ from PySide2.QtWidgets import QApplication, QWidget
 from PySide2.QtGui import QPainter, QBrush
 from PySide2.QtCore import Qt, QPoint
 
-from theme2_3 import *
+from figure import *
 
 class FigureWidget(QWidget):
     def __init__(self, parent=None):
